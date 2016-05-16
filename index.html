@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RAE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Style Sheets-->
+<link rel="stylesheet" href="jquery.mobile-1.4.5.css">
+<link rel="stylesheet" href="style.css">
+<!--Custom JavaScript Files Generadas por el Builder-->
+<script src="jquery-1.12.2.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+  <!--Login-->
+  <div data-role="page" id="login">
+    <!--Logo-->
+
+    <a href="#inicio" id="logo"></a>
+    <form>
+      <input value="Usuario"></input>
+      <input value="*******"></input>
+    </form>
+    <a class="ui-btn" href="#inicio" id="ingresar">ingresar</a>
+  </div>
+
+  <!--Inicio-->
+  <div data-role="page" id="inicio">
+
+      <!--Botonera-->
+      <div id="botonera" data-position="fixed">
+        <a class="ui-btn-inline" href="#inicio" id="btn-inicio"></a>
+        <a class="ui-btn-inline" href="#jugar" >jugar</a>
+        <a class="ui-btn-inline" href="#listas" >listas</a>
+        <a class="ui-btn-inline" href="#">buscar</a>
+
+      </div>
+
+      <!--Contenido-->
+      <div id="contenido">
+      <h4>Bienvenido, Patricio.</h4>
+      <h2>Diccionario.</h2>
+      <p>Descrubra las definiciones más empleadas.</p>
+      <h2>Literatura.</h2>
+      <p>Disfrute de su lectura y acceda a la definición de cada palabra con sólo hacer tap en ella.</p>
+      <h2>Progreso.</h2>
+      <p>Verifique su progreso general.</p>
+      <h2>Cambiar de usuario.</h2>
+      <p>Cierre sesión e ingrese con otra cuenta.</p>
+    </div>
+
+  </div>
+
+  <!--Jugar-->
+  <div id="jugar" data-role="page">
+    <!--Botonera-->
+    <div id="botonera" data-position="fixed">
+      <a class="ui-btn-inline" href="#inicio" id="btn-inicio"></a>
+      <a class="ui-btn-inline" href="#jugar" >jugar</a>
+      <a class="ui-btn-inline" href="#listas" >listas</a>
+      <a class="ui-btn-inline" href="#">buscar</a>
+    </div>
+    <!--Juego-->
+    <div id="ficha">
+      ¿En qué contexto podría afirmarse que se encontró refugio?
+      <ul>
+      <li>en la parada de colectivo.</li>
+      <li>en la luna.</li>
+      <li>en el living room.</li>
+      <li>en una intersección.</li>
+      <ul>
+
+    </div>
+      <div id="dato">
+        <span>En ésta pregunta refugio constituye un
+        sustantivo que implica proveer protección.</span>
+      </div>
+    <div data-role="footer">
+    <img id="prog" src="images/prog.svg"/>
+    <h2>su progreso con</h2>
+    <h1>Refugio</h1>
+    </div>
+  </div>
+
+  <!--Listas-->
+  <div id="listas" data-role="page">
+    <!--Botonera-->
+    <div id="botonera" data-position="fixed">
+      <a class="ui-btn-inline" href="#inicio" id="btn-inicio"></a>
+      <a class="ui-btn-inline" href="#jugar" >jugar</a>
+      <a class="ui-btn-inline" href="#listas" >listas</a>
+      <a class="ui-btn-inline" href="#">buscar</a>
+    </div>
+  <!--Lista de listas-->
+      <ul>
+        <li class="progreso"><img src="images/prog.svg"/></li>
+        <h2 class="progp">Lista 1</h2>
+        <li class="progreso"><img src="images/prog1.svg"/></li>
+        <h2 class="progp">Lista Marzo</h2>
+        <li class="progreso"><img src="images/prog.svg"/></li>
+        <h2 class="progp">Lista Literatura</h2>
+        <li class="progreso"><img src="images/prog1.svg"/></li>
+        <h2 class="progp">Lista Latín</h2>
+      </ul>
+      <a href="#lista" id="linklist">Ver todas las palabras ></a>
+    </div>
+
+  <!--Lista en si-->
+  <div id="lista" data-role="page">
+    <!--Botonera-->
+    <div id="botonera" data-position="fixed">
+      <a class="ui-btn-inline" href="#inicio" id="btn-inicio"></a>
+      <a class="ui-btn-inline" href="#jugar" >jugar</a>
+      <a class="ui-btn-inline" href="#listas" >listas</a>
+      <a class="ui-btn-inline" href="#">buscar</a>
+    </div>
+  <!--Lista de palabras-->
+      <ul>
+        <li class="progreso"><img src="images/prog1.svg"/></li>
+        <h2 class="progp">Refugio</h2>
+        <li class="progreso"><img src="images/prog.svg"/></li>
+        <h2 class="progp">Hirsuto</h2>
+        <li class="progreso"><img src="images/prog1.svg"/></li>
+        <h2 class="progp">Bizarro</h2>
+        <li class="progreso"><img src="images/prog.svg"/></li>
+        <h2 class="progp">Etéreo</h2>
+        <li class="progreso"><img src="images/prog1.svg"/></li>
+        <h2 class="progp">Ambiguo</h2>
+      </ul>
+    </div>
+
+
+  </div>
+
+
+
+</body>
+</html>
